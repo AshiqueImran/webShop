@@ -3,14 +3,14 @@
 	background-color: #F5F5F5;
 }
 .navbar {
-   background-color: #F5F5F5;
+   background: linear-gradient(white,#F2F2F2,#E5E5E5);
    border: solid white 1px;
 }
 
 @media only screen and (min-width: 768px){
 nav .navbar-nav
 {
-	margin-left: 12%;
+	margin-left: 6%;
 }
 }
 nav .navbar-nav li a {
@@ -20,4 +20,10 @@ nav .navbar-nav li a {
 nav .navbar-nav li a:hover {
     color: #CF1E32 !important;
     font-weight: bold;
+}
+
+.picSize{
+	width: 100%;
+	height: 10%;
+	position: relative;
 }
