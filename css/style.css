@@ -1,3 +1,4 @@
+
 .logoBackground
 {
 	background-color: #F5F5F5;
@@ -12,6 +13,9 @@ nav .navbar-nav
 {
 	margin-left: 6%;
 }
+.margin{
+	margin-left: 6%;
+}
 }
 nav .navbar-nav li a {
     color: black !important;
@@ -21,9 +25,39 @@ nav .navbar-nav li a:hover {
     color: #CF1E32 !important;
     font-weight: bold;
 }
+#active{
+    color: white !important;
+    background-color: #CF1E32;
+}
+#active:hover{
+    color: white !important;
+    background-color: #CF1E32;
+}
 
 .picSize{
-	width: 100%;
-	height: 10%;
-	position: relative;
+	width: auto;
+}
+.themeColor{
+	color:#CF1E32;
+}
+p {
+    line-height: 200%;
+}
+.welcome{
+    font-family: 'Georgia';
+    font-weight: bolder;
+    font-size: 22px;
+    color: #272727;
+
+}
+.paraSpace{
+	margin-top: 2%;
+}
+.elementSpace
+{
+	margin-top: 2%;
+}
+.footerColor{
+	background-color: black;
+	padding: 0px;
 }
